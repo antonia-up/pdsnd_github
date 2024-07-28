@@ -22,7 +22,7 @@ def get_filters():
         if city in CITY_DATA:
             break
         else:
-            print("Invalid input. Please enter a valid city name.")
+            print("Invalid. Please enter a valid city name.")
 
     # TO DO: get user input for month (all, january, february, ... , june)
     months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
@@ -40,7 +40,7 @@ def get_filters():
         if day in days:
             break
         else:
-            print("Invalid input. Please enter a valid day.")
+            print("Invalid. Please enter a valid day.")
 
 
     print('-'*40)
