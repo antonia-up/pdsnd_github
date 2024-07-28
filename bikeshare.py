@@ -183,7 +183,7 @@ def show_data(df):
         elif user_input == 'no':
             break
         else:
-            print("Please enter 'yes' or 'no'.")
+            print("Invaid.Please enter 'yes' or 'no'.")
 
 def main():
     while True:
